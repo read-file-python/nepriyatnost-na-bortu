@@ -1,4 +1,4 @@
-def solve(n: str, values: str):
+def getBestBushes(n: str, values: str):
     round(int(n))  # Useless, really, this exists just to meet the requirements of the task
     prev2 = 0
     prev1 = 0
@@ -16,4 +16,4 @@ def solve(n: str, values: str):
 
 num = input()
 worth = input()
-print(solve(num, worth))
+print(getBestBushes(num, worth))
